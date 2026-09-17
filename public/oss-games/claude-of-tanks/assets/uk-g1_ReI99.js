@@ -1,0 +1,1 @@
+import{t as e}from"./uk-DmTwPKpo.js";export{e as UK_PROFILES};

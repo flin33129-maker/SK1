@@ -1,0 +1,1 @@
+function e(e=typeof location<`u`?location.search:``){let t=new URLSearchParams(e||``);if(!t.has(`debug`))return!1;let n=String(t.get(`debug`)??``).toLowerCase();return n!==`0`&&n!==`false`&&n!==`off`}export{e as t};

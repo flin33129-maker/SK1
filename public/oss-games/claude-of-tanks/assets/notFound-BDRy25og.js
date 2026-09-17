@@ -1,0 +1,1 @@
+import{n as e,t}from"./responsiveLayout-DwgA_7nM.js";import{p as n,r,s as i,u as a}from"./i18n-BwCuf8CS.js";t();var o=r();n(o)||(e(),a(document,o)),document.title=i(`notFound.metaTitle`),document.querySelector(`meta[name="description"]`)?.setAttribute(`content`,i(`notFound.metaDescription`));

@@ -1,0 +1,1 @@
+import{m as e}from"./tankFactoryCore-Cbrpidxl.js";function t(t,n,r,i,a){let o=e(t,n,a),s=e(r,i,a);return s.translate(0,0,n/2),{body:o,cap:s}}export{t};

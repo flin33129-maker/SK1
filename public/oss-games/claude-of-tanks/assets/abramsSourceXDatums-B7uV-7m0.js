@@ -1,0 +1,1 @@
+var e=Object.freeze({turret:[-286e-6,1.513295,.392712],gun:[-.020003,1.849085,1.396]}),t=Object.freeze({structuralHullLengthM:7.95389,overallLengthM:9.82426,standardWidthM:3.66219,rectangularUrbanArmorWidthM:4.06304,curvedUrbanArmorWidthM:4.39543,muzzleZ:5.809425,barrelRadiusM:.09043,antennaTopM:4.176975,turretRoofM:2.360795});export{t as n,e as t};

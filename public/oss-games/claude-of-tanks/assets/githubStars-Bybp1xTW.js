@@ -1,0 +1,1 @@
+import{n as e}from"./githubStars-_DVbV4Di.js";export{e as mountGitHubStars};

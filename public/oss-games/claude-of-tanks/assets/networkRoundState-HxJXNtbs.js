@@ -1,0 +1,1 @@
+function e(e){e.result=null,e.resultReason=null,e.timeS=0,e.preBattleS=1/0}export{e as t};

@@ -1,0 +1,1 @@
+var e={value:1};function t(t){if(!Number.isFinite(t)||t<0||t>1)throw RangeError(`Vehicle readability scale must be finite and in 0..1`);e.value=t}function n(t){t.uVehicleReadabilityScale=e}export{t as n,n as t};

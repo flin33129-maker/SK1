@@ -1,0 +1,1 @@
+function e(e,t){let n=document.getElementById(e);if(n?.tagName===`STYLE`)return n;let r=document.createElement(`style`);return r.id=e,r.textContent=t,document.head.appendChild(r),r}function t(e,t=``,n=null){let r=document.createElement(e);return t&&(r.className=t),n&&n.appendChild(r),r}export{e as n,t};

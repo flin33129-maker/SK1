@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #05070f;
+}
+
+body {
+  font-family:
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", ui-sans-serif, system-ui,
+    -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+::selection {
+  background: rgba(251, 191, 36, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(251, 191, 36, 0.5);
+}
+
+@keyframes hitmarker-pop {
+  0% {
+    opacity: 0.95;
+    transform: translate(-50%, -50%) rotate(45deg) scale(0.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.6);
+  }
+}
+
+.hitmarker::before,
+.hitmarker::after {
+  content: "";
+  position: absolute;
+  background: #fde68a;
+  box-shadow: 0 0 6px rgba(253, 224, 71, 0.8);
+}
+
+.hitmarker::before {
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+}
+
+.hitmarker::after {
+  top: 50%;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.hitmarker {
+  animation: hitmarker-pop 0.28s ease-out forwards;
+}
+
+@keyframes hurt-pulse {
+  0% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hurt-flash {
+  background: radial-gradient(circle at center, rgba(220, 38, 38, 0) 42%, rgba(190, 18, 18, 0.75) 100%);
+  animation: hurt-pulse 0.45s ease-out forwards;
+}
+
+@keyframes float-up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.float-slow {
+  animation: float-up 6s ease-in-out infinite;
+}
+
+.grid-glow {
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(251, 191, 36, 0.14), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(56, 189, 248, 0.14), transparent 45%),
+    radial-gradient(circle at 50% 100%, rgba(244, 63, 94, 0.12), transparent 50%);
+}

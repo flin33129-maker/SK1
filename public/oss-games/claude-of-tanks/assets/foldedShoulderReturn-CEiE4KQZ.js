@@ -1,0 +1,1 @@
+import{t as e}from"./sectionSolid-DuzNhWOQ.js";function t(t,n){return e(t.rows.map(([e,r,i])=>{let a=i+t.offsetY,o=t.skirtTop+t.offsetY-.012,s=t.outerX,c=[[r,a-.016],[s-.014,a-.016],[s-.014,o],[s,o],[s,a],[r,a]];return{z:e+t.offsetZ,ring:n<0?c.map(([e,t])=>[-e,t]).reverse():c}}))}export{t};

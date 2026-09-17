@@ -1,0 +1,1 @@
+function e(e,t,n){let r=e;for(let e of n)if(typeof r[e]!=`function`)throw TypeError(`${t} integration requires ${e}()`);return e}export{e as t};
